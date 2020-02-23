@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ Copyright (C) 2019 The Android Open Source Project
+~
+~ Licensed under the Apache License, Version 2.0 (the "License");
+~ you may not use this file except in compliance with the License.
+~ You may obtain a copy of the License at
+~
+~      http://www.apache.org/licenses/LICENSE-2.0
+~
+~ Unless required by applicable law or agreed to in writing, software
+~ distributed under the License is distributed on an "AS IS" BASIS,
+~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~ See the License for the specific language governing permissions and
+~ limitations under the License.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Top level DayNight theme to be used in AndroidManifest.xml-->
+    <style name="Better.HR.DayNight" parent="Base.Better.HR"/>
+
+    <!--Base custom theme which will be shared between both light and dark theme variants-->
+    <style name="Base.Better.HR" parent="Base.MaterialThemeBuilder">
+        <!--Material color attributes -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/primaryColor</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryVariant</item>
+
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorError">@color/colorError</item>
+
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorOnError">@color/colorOnError</item>
+
+
+        <!--Material type attributes-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Better.HR.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Better.HR.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Better.HR.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Better.HR.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Better.HR.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Better.HR.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Better.HR.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Better.HR.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Better.HR.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Better.HR.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Better.HR.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Better.HR.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Better.HR.Overline</item>
+
+        <item name="android:navigationBarDividerColor" tools:ignore="NewApi">@android:color/transparent</item>
+
+        <!--Material shape attributes-->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Better.HR.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Better.HR.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Better.HR.LargeComponent</item>
+
+        <!--Component styles-->
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Better.HR.BottomSheetDialog</item>
+        <item name="floatingActionButtonStyle">@style/ThemeOverlay.Better.HR.FloatingActionButton.Inverse</item>
+        <item name="bottomNavigationStyle">@style/Widget.Better.HR.BottomNavigationView</item>
+        <item name="switchStyle">@style/Widget.Better.HR.Switch</item>
+        <item name="toolbarStyle">@style/Widget.Better.HR.Toolbar</item>
+        <item name="tabStyle">@style/Widget.Better.HR.Tab</item>
+        <item name="appBarLayoutStyle">@style/Widget.Better.HR.AppBarLayout</item>
+        <item name="chipStyle">@style/Widget.Better.HR.Chip.Action</item>
+        <item name="editTextStyle">@style/Widget.Better.HR.EditText</item>
+
+
+        <item name="materialButtonStyle">@style/Widget.Better.HR.Button</item>
+
+        <item name="materialButtonTextButtonStyle">@style/Widget.Better.HR.Button.TextButton</item>
+        <item name="materialButtonIconButtonStyle">@style/Widget.Better.HR.Button.IconButton</item>
+        <item name="materialButtonIconButtonMutedStyle">@style/Widget.Better.HR.Button.IconButton.Muted</item>
+
+        <item name="materialButtonOutlinedStyle">@style/Widget.Better.HR.Button.OutlinedButton</item>
+
+        <item name="materialCardViewStyle">@style/Widget.Better.HR.MaterialCardView</item>
+
+        <item name="spinnerStyle">@style/Widget.Better.HR.Spinner.DropDown</item>
+        <item name="android:includeFontPadding">false</item>
+
+        <!--Font Style-->
+        <item name="android:fontFamily">@font/lato</item>
+    </style>
+
+    <!-- Custom Attributes-->
+    <attr name="materialButtonInverseStyle" format="reference"/>
+    <attr name="materialButtonTextButtonStyle" format="reference"/>
+    <attr name="materialButtonIconButtonStyle" format="reference"/>
+    <attr name="materialButtonIconButtonMutedStyle" format="reference"/>
+    <!-- -->
+
+
+    <style name="Widget.Better.HR.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:backgroundTint" tools:ignore="NewApi">@color/mtrl_background_tint_color_selector</item>
+        <item name="android:paddingBottom">@dimen/spacing_medium</item>
+    </style>
+
+    <style name="Base.MaterialThemeBuilder" parent="Theme.MaterialComponents.DayNight">
+        <item name="alphaEmphasisHigh">@dimen/alpha_emphasis_high</item>
+        <item name="alphaEmphasisMedium">@dimen/alpha_emphasis_medium</item>
+        <item name="alphaEmphasisDisabled">@dimen/alpha_emphasis_disabled</item>
+
+        <!--Remap legacy AppCompat attributes to MaterialComponent attributes-->
+        <item name="colorPrimaryDark">?colorPrimaryVariant</item>
+        <item name="colorAccent">?colorSecondary</item>
+
+    </style>
+
+</resources>

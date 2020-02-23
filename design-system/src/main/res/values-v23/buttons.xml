@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Better.HR.Button.RoundRectangle" parent="Better.HR.DayNight">
+    <item name="android:background">@drawable/background_circle_button</item>
+  </style>
+
+  <style name="Better.HR.Button" parent="Widget.MaterialComponents.Button">
+    <item name="android:textAllCaps">false</item>
+    <item name="rippleColor">?attr/colorAccent</item>
+    <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+  </style>
+
+  <style name="Better.HR.Button.Unelevated.Colored">
+  </style>
+
+  <style name="Better.HR.Button.Colored" >
+    <item name="rippleColor">?attr/colorPrimary</item>
+    <item name="backgroundTint">?attr/colorAccent</item>
+    <item name="android:textColor">?attr/colorPrimary</item>
+  </style>
+
+</resources>

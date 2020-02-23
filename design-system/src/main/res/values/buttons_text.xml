@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Widget.Better.HR.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+
+  </style>
+
+  <style name="Widget.Better.HR.Button.Text.Primary">
+  </style>
+
+  <style name="Widget.Better.HR.Button.Text.Secondary">
+    <item name="android:textColor">@color/selector_button_text_secondary_text</item>
+    <item name="rippleColor">@color/selector_button_text_secondary_ripple</item>
+  </style>
+
+  <style name="Widget.Better.HR.Button.Text.Negative">
+    <item name="android:textColor">@color/selector_button_text_negative_text</item>
+    <item name="rippleColor">@color/selector_button_text_negative_ripple</item>
+
+  </style>
+
+  <style name="Widget.Better.HR.Button.Text.Primary.Small">
+    <item name="android:textAppearance">?textAppearanceCaption</item>
+  </style>
+
+  <style name="Widget.Better.HR.Button.Text.Secondary.Small">
+    <item name="android:textAppearance">?textAppearanceCaption</item>
+  </style>
+
+
+  <style name="Widget.Better.HR.Button.Text.Negative.Small">
+    <item name="android:textAppearance">?textAppearanceCaption</item>
+  </style>
+</resources>

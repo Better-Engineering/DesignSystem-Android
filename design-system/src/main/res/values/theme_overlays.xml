@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="ThemeOverlay.Widget.Better.HR.MaterialCardView.Pinned" parent="Widget.Better.HR.MaterialCardView">
+    <item name="cardElevation">8dp</item>
+  </style>
+</resources>

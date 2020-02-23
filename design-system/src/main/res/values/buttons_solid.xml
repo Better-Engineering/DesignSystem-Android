@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Widget.Better.HR.Button.Solid"></style>
+
+  <style name="Widget.Better.HR.Button.Solid.Primary"></style>
+
+
+  <style name="Widget.Better.HR.Button.Solid.Primary.Reverse">
+    <item name="backgroundTint">@color/selector_button_solid_primary_background</item>
+    <item name="android:textColor">@color/selector_button_solid_primary_reverse_text</item>
+  </style>
+
+
+  <style name="Widget.Better.HR.Button.Solid.Error">
+    <item name="backgroundTint">@color/selector_button_solid_negative_background</item>
+    <item name="android:textColor">@color/selector_button_solid_error_text</item>
+  </style>
+
+
+  <style name="Widget.Better.HR.Button.Solid.Error.Reverse">
+    <item name="backgroundTint">@color/selector_button_solid_error_negative_background</item>
+    <item name="android:textColor">@color/selector_button_solid_negative_reverse_text</item>
+  </style>
+
+</resources>

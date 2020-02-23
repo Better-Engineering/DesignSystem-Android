@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Widget.Better.HR.Button.Icon" parent="Widget.MaterialComponents.Button.TextButton">
+    <item name="android:insetLeft">0dp</item>
+    <item name="android:insetTop">0dp</item>
+    <item name="android:insetRight">0dp</item>
+    <item name="android:insetBottom">0dp</item>
+    <item name="android:maxWidth">48dp</item>
+    <item name="android:minWidth">48dp</item>
+    <item name="android:minHeight">48dp</item>
+    <item name="iconGravity">textStart</item>
+    <item name="iconPadding">0dp</item>
+  </style>
+
+
+  <style name="Widget.Better.HR.Button.Icon.Primary" parent="Widget.Better.HR.Button.Solid.Primary.Reverse">
+    <item name="android:maxWidth">48dp</item>
+    <item name="android:minWidth">48dp</item>
+    <item name="android:minHeight">48dp</item>
+    <item name="android:insetLeft">0dp</item>
+    <item name="android:insetTop">0dp</item>
+    <item name="iconTint">@color/selector_button_icon_primary_tint</item>
+    <item name="android:insetRight">0dp</item>
+    <item name="android:insetBottom">0dp</item>
+    <item name="iconGravity">textStart</item>
+    <item name="iconPadding">0dp</item>
+    <item name="cornerRadius">10dp</item>
+  </style>
+
+  <style name="Widget.Better.HR.Button.Icon.Menu">
+
+  </style>
+</resources>

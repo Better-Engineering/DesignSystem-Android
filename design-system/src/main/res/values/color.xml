@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primaryColor">#1ED292</color>
+  <color name="colorPrimaryVariant">#1AAA78</color>
+
+  <color name="colorBackground">#f6f6f6</color>
+  <color name="colorSurface">#ffffff</color>
+  <color name="colorError">#F26A64</color>
+  <color name="colorOnSecondary">#ffffff</color>
+  <color name="colorOnPrimary">#ffffff</color>
+  <color name="colorPrimaryLight">#F6F6F6</color>
+  <color name="colorOnSurface">#5F5F5F</color>
+  <color name="colorOnBackground">#5F5F5F</color>
+  <color name="colorOnError">#ffffff</color>
+  <color name="colorAnnouncement">#606060</color>
+
+
+  <color name="colorAccent">#ffffff</color>
+  <color name="colorAccentDark">#e0e0e0</color>
+  <color name="colorAccentDarker">#55906b</color>
+
+  <color name="colorAccentBlue">#0068D4</color>
+  <color name="colorAccentOrange">#F95E08</color>
+  <color name="colorAccentYellow">#FCB006</color>
+
+
+  <color name="bg_gray">#f0f0f0</color>
+  <color name="colorGrey">#bbc1c6</color>
+  <color name="colorLightGray">#f5f5f5</color>
+
+  <color name="textColorPrimary">#5F5F5F</color>
+  <color name="textColorHints">#8E97A1</color>
+  <color name="textColorInput">#B4BAC0</color>
+  <color name="textColorSecondary">#8E97A1</color>
+
+  <color name="colorDivider">#E7E7E7</color>
+
+  <color name="colorAccentLight">#663FD788</color>
+
+
+  <color name="colorDemotion">#F26A64</color>
+  <color name="colorPromotion">#1ED292</color>
+  <color name="colorTransfer">#3EA8B6</color>
+  <color name="colorActivityDefault">#778798</color>
+
+  <color name="chipSelectedColorOpacity10">#335F5F5F</color>
+  <color name="colorAccentYellowOpacity10">#33FCB006</color>
+
+
+  <color name="account_circle">#635D5D</color>
+
+  <color name="color_brand_blue">#0068D4</color>
+  <color name="color_brand_negative">#F26A64</color>
+
+</resources>

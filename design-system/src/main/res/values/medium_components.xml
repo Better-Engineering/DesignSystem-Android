@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <!--Toolbar-->
+  <style name="Widget.Better.HR.Toolbar" parent="Widget.MaterialComponents.Toolbar.Surface">
+    <item name="android:actionMenuTextColor">?attr/colorPrimary</item>
+    <item name="titleTextAppearance">?attr/textAppearanceHeadline6</item>
+    <item name="subtitleTextAppearance">?textAppearanceCaption</item>
+    <item name="contentInsetStartWithNavigation">12dp</item>
+    <item name="android:actionMenuTextAppearance">?attr/textAppearanceCaption</item>
+  </style>
+
+  <!--AppBarLayout-->
+  <style name="Widget.Better.HR.AppBarLayout" parent="Widget.MaterialComponents.AppBarLayout.Surface">
+  </style>
+
+  <!--BottomNavigationView-->
+  <style name="Widget.Better.HR.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+    <item name="itemIconSize">24dp</item>
+    <item name="labelVisibilityMode">labeled</item>
+  </style>
+
+
+  <!--Bottom Sheets-->
+  <style name="ThemeOverlay.Better.HR.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+    <item name="android:windowIsFloating">false</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowAnimationStyle">@style/Animation.Better.HR.BottomSheet.Modal</item>
+    <item name="android:statusBarColor" tools:ignore="NewApi">@android:color/transparent</item>
+    <item name="bottomSheetStyle">@style/Widget.Better.HR.BottomSheet.Modal</item>
+    <item name="android:navigationBarColor" tools:ignore="NewApi">?colorSurface</item>
+    <item name="android:navigationBarDividerColor" tools:ignore="NewApi">@android:color/transparent</item>
+  </style>
+  <style name="Widget.Better.HR.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+    <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Better.HR.LargeComponent.BottomSheet</item>
+  </style>
+
+
+  <style name="Widget.Better.HR.Tab" parent="Widget.MaterialComponents.TabLayout">
+    <item name="tabIndicator">@drawable/tabs_rounded_line_indicator</item>
+    <item name="tabIndicatorFullWidth">false</item>
+    <item name="tabTextAppearance">@style/TextAppearance.Better.HR.Tab</item>
+  </style>
+
+
+  <!--Switch-->
+  <style name="Widget.Better.HR.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+  </style>
+
+</resources>

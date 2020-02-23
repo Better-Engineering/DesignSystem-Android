@@ -1,0 +1,2 @@
+include ':design-system', ':design-system-catalog'
+rootProject.name='Design System Android'

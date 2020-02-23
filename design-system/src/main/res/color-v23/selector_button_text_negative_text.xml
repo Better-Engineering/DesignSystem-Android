@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:alpha="?alphaEmphasisHigh" android:color="@color/color_brand_negative" android:state_checkable="true" android:state_checked="true" android:state_enabled="true"/>
+  <item android:alpha="?alphaEmphasisMedium" android:color="?attr/colorOnSurface" android:state_checkable="true" android:state_checked="false" android:state_enabled="true"/>
+  <item android:alpha="?alphaEmphasisHigh" android:color="@color/color_brand_negative" android:state_enabled="true"/>
+  <item android:alpha="?alphaEmphasisDisabled" android:color="?attr/colorOnSurface"/>
+</selector>

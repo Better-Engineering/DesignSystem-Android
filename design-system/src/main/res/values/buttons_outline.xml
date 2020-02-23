@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Widget.Better.HR.Button.Outline" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+    <item name="strokeWidth">1dp</item>
+  </style>
+
+  <style name="Widget.Better.HR.Button.Outline.Primary">
+    <item name="strokeColor">@color/selector_button_outline_primary_outline</item>
+  </style>
+
+
+  <style name="Widget.Better.HR.Button.Outline.Error">
+    <item name="strokeColor">@color/selector_button_outline_negative_outline</item>
+    <item name="rippleColor">@color/selector_button_text_negative_ripple</item>
+    <item name="android:textColor">@color/selector_button_outline_negative_text</item>
+  </style>
+</resources>

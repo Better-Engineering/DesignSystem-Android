@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Widget.Better.HR.Chip.Action" parent="Widget.MaterialComponents.Chip.Action">
+
+  </style>
+
+  <style name="Widget.Better.HR.Chip.Filter" parent="Widget.MaterialComponents.Chip.Filter">
+    <item name="checkedIconVisible">false</item>
+    <item name="chipBackgroundColor">@color/mtrl_chip_surface</item>
+    <item name="android:textColor">@color/mtrl_chip_text</item>
+    <item name="chipStrokeColor">@color/mtrl_chip_stroke</item>
+    <item name="chipStrokeWidth">1dp</item>
+    <item name="chipStartPadding">@dimen/spacing_small</item>
+    <item name="chipEndPadding">@dimen/spacing_small</item>
+  </style>
+
+  <style name="Widget.Better.HR.Chip.Choice" parent="Widget.MaterialComponents.Chip.Choice">
+
+  </style>
+
+
+  <style name="Widget.Better.HR.Chip.Entry" parent="Widget.MaterialComponents.Chip.Entry">
+
+  </style>
+</resources>
