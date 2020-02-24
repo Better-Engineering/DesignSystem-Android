@@ -1,29 +1,13 @@
-#name: "Publish on release"
-#on: release
-#
-#jobs:
-#  setup-android:
-#    runs-on: ubuntu-latest
-#    steps:
-#    - uses: actions/checkout@master
-#    - name: Publish snapshot
-#      run: ./gradlew publish
-#      env:
-#        USERNAME: hashlin
-#        PASSWORD: ${{ secrets.PACKAGES_TOKEN }}
 name: "Publish on release"
-on:
-  push:
-    tags:
-      - '*'
+on: release
 
 jobs:
   setup-android:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: Publish snapshot
-        run: ./gradlew publish
-        env:
-          USERNAME: hashlin
-          PASSWORD: ${{ secrets.PACKAGES_TOKEN }}
+    - uses: actions/checkout@master
+    - name: Publish snapshot
+      run: ./gradlew publish
+      env:
+        USERNAME: hashlin
+        PASSWORD: ${{ secrets.PACKAGES_TOKEN }}
