@@ -1,5 +1,5 @@
-name: "Release per-commit snapshots"
-on: push
+name: "Publish on release"
+on: release
 
 jobs:
   setup-android:
